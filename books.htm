@@ -3,24 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Favourite Books</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <table align="center">
-      <tr valign="bottom">
-        <td valign"bottom"><a href="index.htm"><b><u>HOMEPAGE</u></b></a> |</td>
-        <td ><a href="films.htm"><b><u>FILMS</u></b></a> |</td>
-        <td ><a href="#"><font size="6"><b><u>BOOKS</u></b></font></a> |</td>
-        <td ><a href="musics.htm"><b><u>MUSICS</u></b></a> |</td>
-        <td ><a href="usefullinks.htm"><b><u>USEFUL LINKS</u></b></a> |</td>
-        <td ><a href="contactme.htm"><b><u>CONTACT ME</u></b></a> |</td>
-        <td ><a href="registration.htm"><b><u>REGISTER</u></b></a></td>
-      </tr>
-    </table>
-    <br>
-    <table>
-      <tr>
-        <td><img src="https://i.kinja-img.com/gawker-media/image/upload/s--V4NpEeqc--/dp2vpt0auuqwle00abhb.jpg" alt="Isaac Asimov - Foundation" width="325px" height="500px"/></td>
-        <td>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.htm">Homepage<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="films.htm">Films<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="books.htm">Books<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="musics.htm">Musics<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="usefullinks.htm">Useful Links<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contactme.htm">Contact Me</a><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="registration.htm">Register<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row" style="margin-top:30px">
+        <div class="col-3">
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/s--V4NpEeqc--/dp2vpt0auuqwle00abhb.jpg" alt="Isaac Asimov - Foundation" width="100%"/>
+        </div>
+        <div class="col-9">
           <h4>Isaac Asimov - Foundation</h4>
           <p>
             Nominated as one of America's best-loved novels by PBS's The Great American Read For twelve thousand years the Galactic Empire has ruled supreme.
@@ -31,12 +55,13 @@
             <br /> <br />
              If you want to buy this book, click <a  target="_blank" href="https://www.kitapyurdu.com/kitap/foundation/484948.html"> here</a>
           </p>
-        </td>
-      </tr>
-      <tr>
-        <td><img src="https://marciokenobi.files.wordpress.com/2012/04/the-end-of-eternity.jpg" alt="Isaac Asimov - End of the Eternity" width="327px" height="500px"/></td>
-        <td>
-          <h4>Isaac Asimov - End of the Eternity</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-top:30px">
+        <div class="col-3">
+          <img src="https://marciokenobi.files.wordpress.com/2012/04/the-end-of-eternity.jpg" alt="Isaac Asimov - End of the Eternity" width="100%"/>
+        </div>
+        <div class="col-9"><h4>Isaac Asimov - End of the Eternity</h4>
           <p>
             One of Isaac Asimov's SF masterpieces, this stand-alone novel is a monument of the flowering of SF in the 20th century.
             It is widely regarded as Asimov's single best SF novel and one every SF fan should read.<br />
@@ -50,11 +75,13 @@
             Unfortunately, they are caught. Harlan's punishment? His next assignment: kill the woman he loves before the paradox they have created results in the destruction of Eternity.<br /><br />
             If you want to buy this book, click <a target="_blank" href="https://www.amazon.com/End-Eternity-Novel-Isaac-Asimov/dp/0765319195"> here</a>
           </p>
-      </td>
-      </tr>
-      <tr>
-        <td><img src="https://images.gr-assets.com/books/1515589515l/186074.jpg" alt="Patrick Rothfuss - Name of the Wind" width="327px" height="500px" /></td>
-        <td>
+        </div>
+      </div>
+      <div class="row" style="margin-top:30px">
+        <div class="col-3">
+          <img src="https://images.gr-assets.com/books/1515589515l/186074.jpg" alt="Patrick Rothfuss - Name of the Wind" width="100%" />
+        </div>
+        <div class="col-9">
           <h4>Patrick Rothfuss - Name of the Wind</h4>
           <p>
             Told in Kvothe's own voice, this is the tale of the magically gifted young man who grows to be the most notorious wizard his world has ever seen.
@@ -65,8 +92,12 @@
             A high-action story written with a poet's hand, The Name of the Wind is a masterpiece that will transport readers into the body and mind of a wizard. <br /> <br />
             If you want to buy this book, click <a target="_blank" href="https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/075640407X?tag=duckduckgo-d-20"> here</a>
           </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -3,126 +3,158 @@
   <head>
     <meta charset="utf-8">
     <title>Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   </head>
   <body>
-    <table align="center">
-      <tr valign="bottom">
-        <td valign"bottom"><a href="index.htm"><b><u>HOMEPAGE</u></b></a> |</td>
-        <td ><a href="films.htm"><b><u>FILMS</u></b></a> |</td>
-        <td ><a href="books.htm"><b><u>BOOKS</u></b></a> |</td>
-        <td ><a href="musics.htm"><b><u>MUSICS</u></b></a> |</td>
-        <td ><a href="usefullinks.htm"><b><u>USEFUL LINKS</u></b></a> |</td>
-        <td ><a href="contactme.htm"><b><u>CONTACT ME</u></b></a> |</td>
-        <td ><a href="#"><font size="6"><b><u>REGISTER</u></b></font></font></a></td>
-      </tr>
-    </table> <br />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <form action="#" method="post">
-      <table align="center">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.htm">Homepage<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="films.htm">Films<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="books.htm">Books<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="musics.htm">Musics<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="usefullinks.htm">Useful Links<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contactme.htm">Contact Me</a><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="registration.htm">Register<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row" style="margin-top:40px">
+        <div class="col-12">
 
-        <tr>
-          <td>
-            <label for="name">Name:</label>
-          </td>
-          <td>
-            <input type="text" name="name"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="surname">Surname:</label>
-          </td>
-          <td>
-            <input type="text" name="surname"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="birthdate">Birthdate:</label>
-          </td>
-          <td>
-            <input type="date" name="birthdate"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="email">Email:</label>
-          </td>
-          <td>
-            <input type="email" name="email"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="pass">Password:</label>
-          </td>
-          <td>
-            <input type="password" name="pass"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="gender">Gender:</label>
-          </td>
-          <td>
-            <select name="gender">
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="aboutme">About Me:</label>
-          </td>
-          <td>
-            <textarea name="aboutme" cols="20" rows="10"></textarea>
-          </td>
-        </tr><tr>
-          <td>
-            <label for="photo">Upload Your Photo:</label>
-          </td>
-          <td>
-            <input type="file" name="photo"/> <br />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>Choose your pokemon!</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input type="checkbox" name="interest" value="pikachu" id="interest-1"/> <label for="interest-1">Pikachu</label> <br />
-            <input type="checkbox" name="interest" value="bulbazaur" id="interest-2"/> <label for="interest-2">Bulbazaur</label><br />
-            <input type="checkbox" name="interest" value="squirtle" id="interest-3"/> <label for="interest-3">Squirtle</label><br />
-            <input type="checkbox" name="interest" value="charmender" id="interest-4"/> <label for="interest-4">Charmender</label><br />
-            <input type="checkbox" name="interest" value="jigglypuff" id="interest-5"/> <label for="interest-5">Jigglypuff</label><br />
+        </div>
+      </div>
+      <form action="#" method="post">
+        <table align="center">
 
-          </td>
-          <td>
-            <input type="checkbox" name="interest" value="snorlax" id="interest-6"/> <label for="interest-6">Snorlax</label> <br />
-            <input type="checkbox" name="interest" value="meowth" id="interest-7"/> <label for="interest-7">Meowth</label> <br />
-            <input type="checkbox" name="interest" value="psyduck" id="interest-8"/> <label for="interest-8">Psyduck</label> <br />
-            <input type="checkbox" name="interest" value="ditto" id="interest-9"/> <label for="interest-9">Ditto</label> <br />
-            <input type="checkbox" name="interest" value="togetic" id="interest-10"/> <label for="interest-10">Togetic</label> <br />
+          <tr>
+            <td>
+              <label for="name">Name:</label>
+            </td>
+            <td>
+              <input type="text" name="name"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="surname">Surname:</label>
+            </td>
+            <td>
+              <input type="text" name="surname"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="birthdate">Birthdate:</label>
+            </td>
+            <td>
+              <input type="date" name="birthdate"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Email:</label>
+            </td>
+            <td>
+              <input type="email" name="email"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass">Password:</label>
+            </td>
+            <td>
+              <input type="password" name="pass"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">Gender:</label>
+            </td>
+            <td>
+              <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="aboutme">About Me:</label>
+            </td>
+            <td>
+              <textarea name="aboutme" cols="20" rows="10"></textarea>
+            </td>
+          </tr><tr>
+            <td>
+              <label for="photo">Upload Your Photo:</label>
+            </td>
+            <td>
+              <input type="file" name="photo"/> <br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Choose your pokemon!</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="interest" value="pikachu" id="interest-1"/> <label for="interest-1">Pikachu</label> <br />
+              <input type="checkbox" name="interest" value="bulbazaur" id="interest-2"/> <label for="interest-2">Bulbazaur</label><br />
+              <input type="checkbox" name="interest" value="squirtle" id="interest-3"/> <label for="interest-3">Squirtle</label><br />
+              <input type="checkbox" name="interest" value="charmender" id="interest-4"/> <label for="interest-4">Charmender</label><br />
+              <input type="checkbox" name="interest" value="jigglypuff" id="interest-5"/> <label for="interest-5">Jigglypuff</label><br />
 
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            &nbsp;
-          </td>
-        </tr>
-        <tr align="center">
-          <td >
-            <input type="submit" value="Submit" onclick="alert('Thanks for registration!'); event.preventDefault()"/>
-          </td>
-        </tr>
-        <tr align="center">
-          <td><input type="reset" value="Reset"/></td>
-        </tr>
-      </table>
-    </form>
+            </td>
+            <td>
+              <input type="checkbox" name="interest" value="snorlax" id="interest-6"/> <label for="interest-6">Snorlax</label> <br />
+              <input type="checkbox" name="interest" value="meowth" id="interest-7"/> <label for="interest-7">Meowth</label> <br />
+              <input type="checkbox" name="interest" value="psyduck" id="interest-8"/> <label for="interest-8">Psyduck</label> <br />
+              <input type="checkbox" name="interest" value="ditto" id="interest-9"/> <label for="interest-9">Ditto</label> <br />
+              <input type="checkbox" name="interest" value="togetic" id="interest-10"/> <label for="interest-10">Togetic</label> <br />
+
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              &nbsp;
+            </td>
+          </tr>
+          <tr align="center">
+            <td >
+              <input type="submit" value="Submit" onclick="alert('Thanks for registration!'); event.preventDefault()"/>
+            </td>
+          </tr>
+          <tr align="center">
+            <td><input type="reset" value="Reset"/></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

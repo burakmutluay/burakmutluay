@@ -3,43 +3,65 @@
   <head>
     <meta charset="utf-8">
     <title>Musics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   </head>
   <body>
-    <table align="center">
-      <tr valign="bottom">
-        <td valign"bottom"><a href="index.htm"><b><u>HOMEPAGE</u></b></a> |</td>
-        <td ><a href="films.htm"><b><u>FILMS</u></b></a> |</td>
-        <td ><a href="books.htm"><b><u>BOOKS</u></b></a> |</td>
-        <td ><a href="#"><font size="6"><b><u>MUSICS</u></b></font></a> |</td>
-        <td ><a href="usefullinks.htm"><b><u>USEFUL LINKS</u></b></a> |</td>
-        <td ><a href="contactme.htm"><b><u>CONTACT ME</u></b></a> |</td>
-        <td ><a href="registration.htm"><b><u>REGISTER</u></b></a></td>
-      </tr>
-    </table>
-    <br />
-    <table>
-      <tr>
-        <td>
-          <audio controls>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.htm">Homepage<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="films.htm">Films<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="books.htm">Books<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="musics.htm">Musics<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="usefullinks.htm">Useful Links<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contactme.htm">Contact Me</a><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="registration.htm">Register<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row" style="margin-top: 30px">
+        <div class="col-3">
+          <audio controls style="width:100%">
             <source src="https://indiryuklemp3.org/mp3_files/902f01bc1b036e600ac597007b9192ad.mp3" type="audio/mpeg"/>
           </audio>
-        </td>
-        <td>
+        </div>
+        <div class="col-9">
           <h4>Riff Cohen - Dans Mon Quartier</h4>
           <p>
             Riff Cohen is an Israeli singer-songwriter, actress, and musician who performs songs in Hebrew, French and Arabic.
             <a href="https://en.wikipedia.org/wiki/Riff_Cohen">Learn More About the Musician</a>
           </p>
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          <audio controls>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-3">
+          <audio controls style="width:100%">
             <source src="https://getmusic.site/media/King_Gizzard_The_Lizard_Wizard_-_Sleep_Drifter_Live_on_KEXP.mp3" type="audio/mpeg"/>
           </audio>
-        </td>
-        <td>
+        </div>
+        <div class="col-9">
           <h4>King Gizzard and the Lizard Wizard - Sleep Drifter</h4>
           <p>
             King Gizzard & the Lizard Wizard is an Australian psychedelic rock band formed in 2010 in Melbourne, Victoria.
@@ -47,16 +69,15 @@
              They are known for their prolific recording output, as well as their energetic live performances.
              <a href="https://en.wikipedia.org/wiki/King_Gizzard_%26_the_Lizard_Wizard">Learn More About the Musician</a>
           </p>
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          <audio controls>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-3">
+          <audio controls style="width:100%">
             <source src="https://musicboss.org/get/music/20170902/musicbossorg_Sabaton_-_Panzerkampf_47954551.mp3" type="audio/mpeg"/>
           </audio>
-        </td>
-        <td>
+        </div>
+        <div class="col-9">
           <h4>Sabaton - Panzerkampf</h4>
           <p>
             Sabaton is a Swedish power metal band from Falun. The band's main lyrical themes are based on war,
@@ -64,9 +85,11 @@
 
              <a href="https://en.wikipedia.org/wiki/Sabaton_(band)">Learn More About the Musician</a>
           </p>
-        </td>
-      </tr>
-
-    </table>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
